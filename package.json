@@ -1,5 +1,5 @@
 {
-  "name": "md5-jkmyers",
+  "name": "md5-jkmyers-convertigo",
   "version": "0.0.1",
   "description": "Joseph K. Myers' high performance (in fact, the fastest) MD5 implementation for npm, Bower, Component, etc.",
   "main": "md5.min.js",
@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AndreasPizsa/md5-jkmyers.git"
+    "url": "git+https://github.com/AndreasPizsa/md5-jkmyers.git"
   },
   "keywords": [
     "fast",
@@ -42,5 +42,11 @@
     "component",
     "hash",
     "crypto"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/AndreasPizsa/md5-jkmyers/issues"
+  },
+  "directories": {
+    "test": "test"
+  }
 }
